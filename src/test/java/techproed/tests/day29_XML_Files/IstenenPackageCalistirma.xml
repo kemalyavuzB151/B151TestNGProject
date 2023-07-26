@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="C:/Users/bahad/IdeaProjects/B151TestNGProject/src/test/java/techproed/tests/day25_POM">
+        <packages>
+            <package name="techproed.tests.day25_POM"/>
+            <package name="techproed.tests.day23_Annotation"/>
+        </packages>
+    </test>
+</suite>
+
+        <!--TestNG'de istenilen packageları, class'ları veya methodları XML file ile çalıştırabiliriz
+         XML'i çalıştırmak istediğimiz package yada class üzerine sağ tıklayarak create TestNG xml sekmesinden
+         oluşturabiliriz.
+         Bu sekme çıkmıyorsa önce File->settings->plugins->marketplace bölümündeki arama kısmına xml yazarak
+         TestNG xml pluginini projemize yükleriz. Sonra xml file oluşturmak için yukardaki belirttiğimiz adımları
+         uygularız. Dosyamızı projemizde görebilmek için file->reload all from disc sekmesine basıp
+         en altta dosyamızın oluştuğunu görürüz.
+         Dosyamızı oluşturduktan sonra ctrl+alt+l tuşlarına basarak dosyadaki kodları düzenleriz
+         XML file'da taglar <suite> tagi ile baslar, <test> tagi ile devam eder.
+        -->
+        <!-- Sadece istedigimiz package lari calistiracaksak <classes> taglariyla birlikte her seyi sileriz
+       <packages> taglari icine calistirmak istedigimiz <package> tagiyla package yi calistiririz -->
+
